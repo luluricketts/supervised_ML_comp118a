@@ -17,10 +17,10 @@ All taken from Kaggle
 	* https://www.kaggle.com/teejmahal20/airline-passenger-satisfaction?select=test.csv
 	* 24 features
 	* predictor: neutral or dissatisfied / satisfied
-4. Wine quality (also from UCI ML repo)
-	* https://www.kaggle.com/nareshbhat/wine-quality-binary-classification
-	* 11 features
-	* predictor: good/bad
+4. Surgical Complications dataset
+	* https://www.kaggle.com/omnamahshivai/surgical-dataset-binary-classification
+	* 24 features
+	* predictor: complication / no complication
 5. Men/women classification (image classification)
 	* https://www.kaggle.com/saadpd/menwomen-classification
 	* images
