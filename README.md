@@ -21,10 +21,6 @@ All taken from Kaggle
 	* https://www.kaggle.com/omnamahshivai/surgical-dataset-binary-classification
 	* 24 features
 	* predictor: complication / no complication
-5. Men/women classification (image classification)
-	* https://www.kaggle.com/saadpd/menwomen-classification
-	* images
-	* predictor: man/woman
 
 ## Models
 
@@ -40,5 +36,7 @@ Models I will use for hyperparameter search and classification
 1. Accuracy
 2. F1 score
 3. AUC 
-4. Confusion matrix
+4. Precision
+5. Recall
+6. Heatmap plots of hyperparameter search results for Logistic Regression, Random Forest, and ANN (SVM has too many hyperparameter combinations over 4 dimensions to show)
 

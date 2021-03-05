@@ -10,6 +10,7 @@ def prep_airlines():
     data_dir = '../data/airline_satisfaction/'
     df = pd.read_csv(data_dir + 'train.csv', index_col=0)
     df.drop('id', axis=1, inplace=True)
+    df.dropna(inplace=True)
 
     to_encode = ['Gender', 'Customer Type', 'Type of Travel', 'Class', 'satisfaction']
     cleanup = dict()
